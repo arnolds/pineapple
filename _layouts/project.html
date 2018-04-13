@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{ site.author }} / {{ page.project.title }}</title>
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
+	<meta name="keywords" content="{{ page.meta.keywords }}">
+	{% include head.html %}
+</head>
+<body>
+	{% include header.html %}
+	<main class="content">
+		<section class="project">
+			<div class="container">
+				<article>
+					<span class="h2">Project Title</span>
+					<h1>
+						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
+					</h1>
+					<span class="h2">Role</span>
+					{{ page.content }}
+					<div class="project-meta">
+						<span class="h2">Technologies</span>
+						<p>{{ page.project.tech }}</p>
+						<span class="h2">Agency</span>
+						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
+						<span class="h2">Year</span>
+						<p>{{ page.agency.year }}</p>
+					</div>
+				</article>
+				<aside>
+					<ul>
+						{% for image in page.images %}
+						<li>
+							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+						</li>
+						{% endfor %}
+					</ul>
+				</aside>
+			</div>
+		</section>
+		<section class="project-navigation">
+			<div class="container">
+				{% if page.previous and page.previous.categories contains "projects" %}
+				<a title="Previous {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
+					<span class="h2">Previous</span>
+					<h2>{{ page.previous.project.title }}</h2>
+				</a>
+				{% endif %}
+				{% if page.next and page.next.categories contains "projects" %}
+				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}" class="next">
+					<span class="h2">Next</span>
+					<h2>{{ page.next.project.title }}</h2>
+				</a>
+				{% endif %}
+			</div>
+		</section>
+	</main>
+	{% include footer.html %}
+	<script src="{{ "/assets/scripts/vendor/jquery-1.12.4.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
+</body>
+</html>

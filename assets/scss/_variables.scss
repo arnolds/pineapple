@@ -1,0 +1,25 @@
+/* Fonts
+ ****************************************************************/
+
+$font-default: Helvetica, Arial, sans-serif;
+$font-poppins: 'Poppins', $font-default;
+$font-lekton: 'Lekton', $font-default;
+
+/* Colors
+ ****************************************************************/
+
+$color-white: #fff;
+$color-black: #000;
+$color-silver-chalice: #aaa;
+$color-alabaster: #fafafa;
+$color-tango: #f46f25;
+$color-white-sand: #f6f6f6;
+
+/* Breakpoint
+ ****************************************************************/
+
+$breakpoint-xsmall: 400px;
+$breakpoint-small: 550px;
+$breakpoint-medium: 750px;
+$breakpoint-large: 1000px;
+$breakpoint-xlarge: 1200px;

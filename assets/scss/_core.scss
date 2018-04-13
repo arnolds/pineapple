@@ -1,0 +1,170 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background: $color-white;
+	color: $color-black;
+	font-family: $font-poppins;
+	font-size: 1.8em;
+	line-height: 1.6;
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+.h1 {
+	color: $color-black;
+	font-size: 2.7rem;
+	font-weight: 600;
+	line-height: 1;
+	margin: 0;
+}
+
+h2,
+.h2 {	
+	color: $color-silver-chalice;
+	display: block;
+	font-family: $font-lekton;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    line-height: 1;
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+}
+
+h3,
+.h3 {
+	color: $color-black;
+	font-family: $font-poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	color: $color-black;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+hr {
+	background: $color-silver-chalice;
+	border: 0;
+	display: block;
+	height: 1px;
+	margin: 3rem 0;
+
+	@media (min-width: $breakpoint-medium) {
+		margin: 4.5rem 0;
+	}
+}
+
+abbr[title] {
+	border-bottom: 1px dotted $color-black;
+	text-decoration: none;
+}
+
+code {
+	background: $color-white;
+	border: 1px solid $color-silver-chalice;
+	border-radius: 3px;
+	font-family: $font-lekton;
+	font-size: 1.5rem;	
+	padding: .1rem .4rem;
+
+	var {
+		font-style: italic;
+	}
+}
+
+dl {
+	margin: 0 0 3rem;
+
+	dt,
+	dd {
+		font-family: $font-lekton;		
+	}
+
+	dt {
+		font-weight: 600;
+	}
+
+	dd {
+		font-weight: 400;
+	}
+}
+
+.responsive-table {
+	margin-bottom: 3rem;
+	
+	@media (max-width: $breakpoint-xsmall) {
+		display: block;	
+		overflow-x: scroll;
+		max-width: $breakpoint-xsmall;
+
+		th,
+		td {
+			min-width: 10rem;
+		}
+	}
+}
+
+table {
+	border-collapse: collapse;	
+	width: 100%;
+
+	thead {
+		td,
+		th {
+			font-weight: 600;
+		}
+	}
+
+	tbody > tr:nth-child(odd) > td, 
+	tbody > tr:nth-child(odd) > th {
+		background: $color-white-sand;
+	}
+
+	th,
+	td {
+		font-family: $font-lekton;
+		font-weight: 400;
+		text-align: left;
+		padding: .5rem 1rem;
+	}
+}
+
+blockquote {
+	border-left: .6rem solid $color-black;
+	padding-left: 2rem;
+	margin: 0 0 3rem;
+
+	p {
+		font-style: italic;
+	}
+
+	@media (min-width: $breakpoint-medium) {
+		padding-left: 3rem;
+	}
+}
+
+pre {
+	margin: 0 0 3rem;
+}
