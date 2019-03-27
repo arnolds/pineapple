@@ -1,12 +1,15 @@
 # User config
-author: "Pineapple"
-tagline: "Pineapple Certfied Jekyll Theme"
+author: "Bumsub Park"
+tagline: "Ph.D. student"
 description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
-keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "pineapple@example.com"
+education: "University of California, Irvine
+            Department of Civil and Environmental Engineering
+            Ph.D in Transportation"
+keywords: "Transportation, Python"
+email: "bumsubp@uci.edu"
 linkedin: "https://www.linkedin.com/"
 twitter: "https://twitter.com/"
-github: "https://github.com/"
+github: "https://github.com/bumsubp"
 
 # Site config
 baseurl: ""
