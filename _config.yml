@@ -9,7 +9,7 @@ twitter: "https://twitter.com/"
 github: "https://github.com/"
 
 # Site config
-baseurl: "https://99kb.github.io"
+url: "https://99kb.github.io"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
