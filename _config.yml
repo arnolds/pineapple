@@ -1,16 +1,16 @@
 # User config
-author: "Pineapple"
+author: "Tom Kitson"
 tagline: "Pineapple Certfied Jekyll Theme"
-description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
+description: "Hi - I'm Tom Kitson, a full-stack web developer from London. After 7 years working as a music supervisor in London, I enrolled on Le Wagon's full-stack Web Development bootcamp in September '22 to take my enthusiasm for coding to the next level. I'm a British/German duel citizen, looking for my first developer role in the UK/EU."
 keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "pineapple@example.com"
-linkedin: "https://www.linkedin.com/"
-twitter: "https://twitter.com/"
-github: "https://github.com/"
+email: "thomaspfkitson@gmail.com"
+linkedin: "https://www.linkedin.com/in/tom-kitson/"
+github: "https://github.com/tkitson"
 
 # Site config
-baseurl: "/pineapple"
+baseurl: ""
 highlighter: rouge
 sass:
   sass_dir: assets/scss
   style: compressed
+watch: true
