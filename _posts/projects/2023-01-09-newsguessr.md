@@ -9,7 +9,7 @@ meta:
 project:
   title: "NewsGuessr"
   type: "Jekyll"
-  url: "https://www.newsguessr.co"
+  url: "https://newsguessr.co"
   logo: "/assets/images/projects/newsguessr/home.png"
   tech: "HTML, CSS, Ruby, JavaScript, PostgreSQL, Rails, Stimulus, Docker, Fly.io"
   year: "January 2023"
