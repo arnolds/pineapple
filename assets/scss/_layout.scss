@@ -7,7 +7,7 @@
 }
 
 .header {
-	background: $color-white;
+	background: #edebeb;
 	padding: 3rem 0;
 }
 
@@ -37,7 +37,7 @@
 	z-index: 1;
 
 	@media (min-width: $breakpoint-medium) {
-		padding: 21rem 0 0;
+		// padding: 21rem 0 0;
 		margin-bottom: 23.42rem;
 	}
 }
@@ -345,7 +345,7 @@
 }
 
 .footer {
-	background: $color-alabaster;
+	background: #edebeb;
 	bottom: 0;
 	left: 0;
 	padding: 5rem 0;

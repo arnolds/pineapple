@@ -21,13 +21,13 @@ project:
 images:
   - image:
     url: "/assets/images/projects/indieshopper/homepage.png"
-    alt: "Red Pineapple website on tablet, mobile and desktop"
+    alt: "IndieShopper homepage"
   - image:
     url: "/assets/images/projects/indieshopper/chat.png"
-    alt: "Red Pineapple website on a desktop device"
+    alt: "Indieshopper chat"
   - image:
     url: "/assets/images/projects/indieshopper/index.png"
-    alt: "Red Pineapple website on a mobile device"
+    alt: "Indieshopper index"
 ---
 <p>IndieShopper was my final project on Le Wagon's full-stack Web Development bootcamp, which I graduated from in December 2022 in Barcelona.</p>
 <br>
