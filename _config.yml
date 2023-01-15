@@ -1,13 +1,13 @@
 # User config
 author: "미래 GA 가입설계서 설명"
-tagline: "🍍Pine Code🍍"
-description: "🍍Pine Code🍍"
-keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "watchbon@kakao.com"
+tagline: "미래 GA 가입설계서 설명"
+description: "세부 설명입니다."
+keywords: "miraeasset,miraeasset life"
+email: "watchbon@miraeasset.com"
 
-linkedin: "https://www.linkedin.com/"
-twitter: "https://twitter.com/"
-github: "https://github.com/99kb/"
+# linkedin: "https://www.linkedin.com/"
+# twitter: "https://twitter.com/"
+# github: "https://github.com/99kb/"
 
 # Site config
 url: "https://99kb.github.io"
