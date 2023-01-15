@@ -1,15 +1,16 @@
 # User config
-author: "Pineapple"
-tagline: "Pineapple Certfied Jekyll Theme"
-description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
-keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "pineapple@example.com"
-linkedin: "https://www.linkedin.com/"
-twitter: "https://twitter.com/"
-github: "https://github.com/"
+author: "미래 GA 가입설계서 설명"
+tagline: "미래 GA 가입설계서 설명"
+description: "세부 설명입니다."
+keywords: "miraeasset,miraeasset life"
+email: "watchbon@miraeasset.com"
+
+# linkedin: "https://www.linkedin.com/"
+# twitter: "https://twitter.com/"
+# github: "https://github.com/99kb/"
 
 # Site config
-baseurl: "/pineapple"
+url: "https://99kb.github.io"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
