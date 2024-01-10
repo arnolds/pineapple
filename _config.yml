@@ -1,15 +1,15 @@
 # User config
-author: "Pineapple"
-tagline: "Pineapple Certfied Jekyll Theme"
-description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
-keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "pineapple@example.com"
-linkedin: "https://www.linkedin.com/"
-twitter: "https://twitter.com/"
-github: "https://github.com/"
+author: "Anuj Natraj"
+tagline: "Anuj Portfolio"
+description: "Current M.S. Robotics Student at Northwestern. Interests include computer vision and SLAM."
+keywords: "ROS, Robotics"
+email: "natraj.anuj@gmail.com"
+linkedin: "https://www.linkedin.com/in/anuj-natraj-27217b18a/"
+github: "https://github.com/AnujN9"
+resume: "https://drive.google.com/file/d/1W5EH4ChW78SEYoDqHxxD6xpSGmRIsbG6/view?usp=drive_link"
 
 # Site config
-baseurl: "/pineapple"
+baseurl: ""
 highlighter: rouge
 sass:
   sass_dir: assets/scss
